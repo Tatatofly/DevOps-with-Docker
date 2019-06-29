@@ -1,0 +1,2 @@
+docker tag 7b3febbd59e1 curler
+docker run -it curler
