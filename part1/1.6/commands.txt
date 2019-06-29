@@ -1,0 +1,4 @@
+docker build .
+docker tag c57971633e16 docker-clock
+docker run docker-clock
+
