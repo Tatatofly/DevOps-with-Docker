@@ -1,0 +1,2 @@
+docker build -t rubye .
+docker run --name rubyexe -p 3000:3000 rubye
