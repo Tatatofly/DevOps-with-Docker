@@ -1,0 +1,8 @@
+version: "3"
+services:
+    ex21:
+      image: devopsdockeruh/first_volume_exercise
+      build: .
+      volumes:
+        - .:/mydir
+      container_name: exe21
