@@ -1,0 +1,14 @@
+version: "3"
+services:
+  redis:
+    image: redis
+  backend:
+    image: back
+    build: ./back/
+    ports:
+     - 8000:8000
+  frontend:
+    image: front
+    build: ./front/
+    ports:
+     - 5000:5000
