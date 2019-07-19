@@ -7,6 +7,8 @@ services:
     build: ./back/
     ports:
      - 8000:8000
+    environment:
+     - REDIS=redis
   frontend:
     image: front
     build: ./front/
