@@ -1,0 +1,19 @@
+Before:
+ - Backend: 352MB
+ - Frontend: 480MB
+
+After:
+ - Backend: 324MB
+ - Frontend: 452MB
+
+Modifications:
+
+Backend:
+Glued RUN commands together and added following optimizations:
+"apt-get purge -y --auto-remove curl && \"
+"rm -rf /var/lib/apt/lists/* && \"
+
+Frontend:
+Glued RUN commands together and added following optimizations:
+"apt-get purge -y --auto-remove curl && \"
+"rm -rf /var/lib/apt/lists/* && \"
