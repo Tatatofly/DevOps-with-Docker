@@ -4,7 +4,7 @@ services:
     image: redis
   backend:
     image: back
-    build: ./back/
+    build: ./backend/
     ports:
      - 8000:8000
     environment:
@@ -20,6 +20,6 @@ services:
      - POSTGRES_PASSWORD=docker
   frontend:
     image: front
-    build: ./front/
+    build: ./frontend/
     ports:
      - 5000:5000
