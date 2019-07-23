@@ -1,0 +1,9 @@
+Image sizes:
+
+Before:
+ - Backend: 324 MB
+ - Frontend: 452MB
+
+After:
+ - Backend: 125MB
+ - Frontend: 255MB
