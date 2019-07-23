@@ -1,0 +1,4 @@
+Dockerfile: Ruby-example from exercise 1.14
+
+Before: 1.11GB
+After: 1.1GB
